@@ -5,7 +5,7 @@ def CelsiusToFahrenheit(c):
     f = (c)*9/5 + 32
 
 def FahrenheitToCelsius(f):
-    c = (f)*5/9 -32
+    c = (5/9)(f-32)
 
 def hPaToInHg(hpa):
     inhg = hpa * 0.02953
